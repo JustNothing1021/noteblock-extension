@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "noteblock-extension:block/low_octave_note_block_top",
+    "down": "minecraft:block/note_block_bottom",
+    "up": "noteblock-extension:block/low_octave_note_block_top",
+    "north": "noteblock-extension:block/low_octave_note_block_sign",
+    "east": "noteblock-extension:block/low_octave_note_block_side",
+    "south": "noteblock-extension:block/low_octave_note_block_side",
+    "west": "noteblock-extension:block/low_octave_note_block_side"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "texture": "#down", "cullface": "down" },
+        "up": { "texture": "#up", "cullface": "up" },
+        "north": { "texture": "#north", "cullface": "north" },
+        "south": { "texture": "#south", "cullface": "south" },
+        "west": { "texture": "#west", "cullface": "west" },
+        "east": { "texture": "#east", "cullface": "east" }
+      }
+    }
+  ]
+}

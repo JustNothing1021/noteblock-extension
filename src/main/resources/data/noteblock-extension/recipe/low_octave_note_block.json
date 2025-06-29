@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "141",
+    "151"
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "noteblock-extension:low_octave_note_block",
+    "count": 1
+  }
+}
