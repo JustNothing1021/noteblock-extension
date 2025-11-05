@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "noteblock-extension",
+	"version": "1.0.0",
+	"name": "多八度音符盒",
+	"description": "添加了高八度和低八度音符盒，让制作红石音乐不再困难",
+	"authors": ["JustNothing"],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/noteblock-extension/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.justnothing.noteblock_extension.NoteBlockExtensionMain"
+		],
+		"client": [
+			"com.justnothing.noteblock_extension.ClientNoteBlockExtension"
+		]
+	},
+	"mixins": [
+		"mixin.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"fabric-api": "*",
+		"minecraft": "1.21",
+		"java": ">=17"
+	}
+}

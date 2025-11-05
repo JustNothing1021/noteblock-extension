@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.justnothing.noteblock_extension.mixin",
+  "mixins": [
+    "ExampleMixin",
+    "SoundSystemMixin"  // 解析不了但是不可以删，删了就没效果了，真的很诡异
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
